@@ -1,0 +1,247 @@
+header
+{
+    background-image: url(images/header-background.jpg);
+    margin: 0%;
+}
+.menu a
+{
+    text-decoration: none;
+    color: white;
+
+}
+a:active
+{
+    color: rgb(124, 120, 120);
+}
+nav
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.entete
+{
+    margin-left: 80px;
+    margin-top: 15px;
+    width: 120px;
+    
+}
+.menu
+{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-family: poppins;
+
+}
+.haut-page
+{
+    background-image: url(images/header-background.jpg);
+    margin: 0%;
+}
+h1
+{
+    color:white;
+    font-family:poppins ;
+    font-size: 3.5em;
+    font-weight: 700;
+    padding-left: 130px;
+    padding-top: 200px;
+    margin: 0%;
+}
+.bouton1
+{
+    border: none;
+    padding:20px;
+    background-color: blue;
+    padding: 20px;
+    font-size: 1em;
+    text-align: center;
+    margin-left: 150px;
+    margin-bottom: 200px;
+}
+.bouton2
+{
+    border: none;
+    border-radius: 0%;
+    padding: 20px;
+    background-color: dimgray;
+    font-size: 1em;
+    text-align: center;
+    
+
+}
+.bouton1:hover
+{
+    background-color: black;
+    opacity: 50%;
+    color: white;
+}
+.bouton2:hover
+{
+    background-color: darkgray;
+    opacity: 50%;
+    color: white;
+}
+span
+{
+    color: rgb(36, 34, 170);
+}
+.about1
+{
+    background-color: #e7eef5;
+}
+span{color: blue;}
+.presentation
+{
+ font-family: poppins;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+ padding: 100px;
+
+}
+.mes-services
+{
+    text-align: center;
+    font-family: poppins;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.services
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 80px;
+    text-align: justify;
+    margin-bottom: 40px;
+    background-color: #fff;
+    gap: 20px;
+
+}
+.dev , .des, .bas
+{
+    border: solid ;
+    padding: 20px 40px;
+    border-color: cornflowerblue;
+    border-width:1px;
+}
+.competence
+{
+    display: flex;
+    flex-direction: row;
+    background-color: #e7eef5;
+    font-family: poppins;
+}
+.photo-marck
+{
+    width: 763px;
+    height: 700px;
+}
+.compete
+{
+    margin-top: 50px;
+    margin-left: 40px;
+}
+.icon
+{
+   
+    padding-top: 30px;
+}
+.icon img
+{
+    width: 50px;
+    height: 49px;
+    margin: 5px;
+}
+.project-1 ,.project-2,.project-3,.project-4
+{
+    font-family: poppins;
+    text-align: center;
+    padding-top: 40px;
+}
+.project-1 .prj1
+{
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+.mini-projet
+{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+    font-family: poppins;
+    margin-top: 80px;
+
+}
+.mini-pro
+{
+    width: 50%;
+    object-fit: cover;
+}
+.equip 
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: poppins;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    border-bottom: #e7eef5 2px solid;
+    padding: 100px;
+}
+.petit-sec
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 20px;
+   
+}
+.petit-ima
+{
+    width: 20%;
+    border-radius: 50%;
+}
+h2
+{text-align: center;
+ font-family: poppins;
+ margin-top: 100px;
+}
+.tabl
+{
+    height: 40px;
+}
+.tabl:active
+{
+   border:solid 1px black ; 
+}
+.question
+{
+    font-family: poppins;
+    text-align: center;
+    background-color: #e7eef5;
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+.bouton-env
+{
+    width: 800px;
+    height: 50px;
+    background-color: blue;
+    color: white;
+    border-radius: 32px
+}
+.bouton-env:hover
+{
+    background-color: white;
+    border: solid 1px black;
+    color: black;
+}

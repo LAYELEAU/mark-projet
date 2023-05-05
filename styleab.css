@@ -1,0 +1,122 @@
+header ,body
+{
+    background-color:#24262a;
+    margin: 0%;
+}
+.menu a
+{
+    text-decoration: none;
+    color: white;
+
+}
+a:active
+{
+    color: rgb(124, 120, 120);
+}
+nav
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.entete
+{
+    margin-left: 80px;
+    margin-top: 15px;
+    width: 120px;
+    
+}
+.menu
+{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-family: poppins;
+}
+h1
+{
+    background-color: #24262a;
+    color: white;
+    margin: 0%;
+    padding-left: 150px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.det-proj
+{
+    background-color: white;
+    text-align: center;
+    font-family: poppins;
+    padding-top: 80px;
+    margin: 0%;
+}
+.para,.para1,.para3,.para4,.para6
+{
+    padding-top: 40px;
+    text-align: justify;
+    padding-left: 300px;
+}
+.para2
+{
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+    padding-top: 40px;
+    gap: 90px;
+    padding-left: 250px;
+
+}
+.para5 
+{
+    background-color: #f7f9fb;
+    padding-top: 40px;
+    text-align: justify;
+    padding-left: 300px;
+}
+.listep
+{
+    text-align: justify;
+    padding-left: 300px;
+    padding-top: 30px;
+}
+.retour
+{
+    background-color: blue;
+    padding: 15px 40px;
+    font-size: 1em;
+    margin-bottom: 200px;
+    margin-top: 40px;
+    margin-left: 0px;
+    color: white;
+    border: none;
+}
+.retour:hover
+{
+    background-color: white;
+    color: blue;
+    border:solid blue ;
+    border-width: 1px;
+}
+.bouton
+{
+    text-align: justify;
+    margin-left: 300px;
+}
+.rond{
+    background-color: rgb(27, 27, 124);
+    color: white;
+    border-radius: 50%;
+    border: none;
+    width: 35px;
+    height: 35px;
+
+}
+.rond1
+{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
